@@ -1,0 +1,9 @@
+grammar ghidra.xtext.sleigh.Sleigh with org.eclipse.xtext.common.Terminals
+
+generate sleigh "http://www.xtext.ghidra/sleigh/Sleigh"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

@@ -1,0 +1,8 @@
+node_modules
+server/bin
+server/lib
+.gradle
+.settings
+xtext-gen
+xtend-gen
+build
