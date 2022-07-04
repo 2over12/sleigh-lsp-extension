@@ -7,3 +7,5 @@ xtext-gen
 xtend-gen
 build
 bin
+.vscode-test
+*.vsix
