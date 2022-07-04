@@ -6,3 +6,4 @@ server/lib
 xtext-gen
 xtend-gen
 build
+bin

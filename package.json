@@ -19,17 +19,17 @@
 	"activationEvents": [
 		"onLanguage:plaintext"
 	],
-	"languages": [
-		{
-			"id": "sleigh",
-			"extensions": [
-				".slaspec",
-				".sinc"
-			]
-		}
-	],
 	"main": "./client/out/extension",
 	"contributes": {
+		"languages": [
+			{
+				"id": "sleigh",
+				"extensions": [
+					".slaspec",
+					".sinc"
+				]
+			}
+		],
 		"configuration": {
 			"type": "object",
 			"title": "Example configuration",

@@ -31,8 +31,10 @@ define pcodeop invalidateTLB;
 #dcbtstls 0,0,r0		#FIXME
 :dcbtstls CT,RA_OR_ZERO,B	is OP=31 & CT & B & XOP_1_10=134 & BIT_0=0 & RA_OR_ZERO
 {
-        ea:$(REGISTER_SIZE) = RA_OR_ZERO + B;
-	prefetchDataCacheBlockLockSetX(ea);
+      
+	  
+	  				   ea:$(REGISTER_SIZE) = RA_OR_ZERO + B;
+	     prefetchDataCacheBlockLockSetX(ea);
 }
 
 #dnh 0,0		#FIXME
